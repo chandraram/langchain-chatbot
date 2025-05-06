@@ -115,7 +115,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.rampucsd15}}
-          password: "${{ secrets.1415@#$Pandu}}"
+          password: ${{ secrets.1415Pandu}}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
