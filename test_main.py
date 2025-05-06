@@ -1,5 +1,6 @@
 from fastapi.testclient import TestClient
 from main import app  # Adjust the import path if necessary
+import httpx
 
 client = TestClient(app)
 
