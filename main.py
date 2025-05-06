@@ -16,4 +16,4 @@ def read_root():
 # Define a POST route to greet a user
 @app.post("/greet")
 def greet_user(request: GreetRequest):
-    return {"message": f"Hello, {request.name}!"}
+    return {"message": f"Hello user, {request.name}!"}
